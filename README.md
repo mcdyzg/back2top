@@ -1,16 +1,22 @@
 # back2top
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+# Usage
 
-Describe back2top here.
+```
+var back2top = require('back2top');
+ * back2top()
+```
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+# API
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+	back2top(stopTop,rate,callback)
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+	1. stopTop: Where window stopped. (滚动到停止的位置，默认回到顶部)
+    2. rate: rolling speed,default 2. (速度，默认2)
+    3. callback: when the window stops rolling, the callback will execute. (滚动结束后的回调，传入停止位置)
+
+# thanks for 
+	
+	张鑫旭大神
+
+	http://www.zhangxinxu.com/wordpress/2017/01/share-a-animation-algorithm-js/

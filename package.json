@@ -1,7 +1,7 @@
 {
   "name": "back2top",
-  "version": "1.0.0",
-  "description": "Describe back2top here",
+  "version": "1.0.1",
+  "description": "Let the window return to top",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -21,8 +21,11 @@
   "devDependencies": {
     "nwb": "0.18.x"
   },
-  "author": "",
+  "author": "mcdyzg",
   "homepage": "",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcdyzg/back2top.git"
+  }
 }
